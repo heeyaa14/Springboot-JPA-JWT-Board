@@ -6,9 +6,9 @@ server:
 spring:     
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cos?serverTimezone=Asia/Seoul
-    username: cos
-    password: bitc5600
+    url: jdbc:mysql://localhost:3306/pkh_db?serverTimezone=Asia/Seoul
+    username: pkh
+    password: 1234
     
   jpa:
     open-in-view: true
